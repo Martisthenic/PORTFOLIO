@@ -56,3 +56,21 @@ a:hover { text-decoration: underline; }
 .post-hero { width: 100%; height: 320px; object-fit: cover; border-radius: 6px; border: 1px solid #eee; margin: 8px 0 16px; }
 .post-meta { color: #666; margin: 4px 0 16px; }
 .post h2 { margin-top: 18px; }
+
+.article-img {
+  display: block;        /* prend toute la largeur dispo */
+  max-width: 70%;       /* pas plus large que le texte */
+  height: auto;          /* garde les proportions */
+  margin: 20px auto 4px;     /* espace autour + centrage */
+  border-radius: 8px;    /* coins arrondis */
+  border: 1px solid #ddd;/* petite bordure */
+}
+
+.img-caption {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+
