@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Kart Cross — Design châssis</title>
   <link rel="stylesheet" href="../assets/css/style.css">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 <body>
   <header>
@@ -29,6 +30,16 @@
     <img class ="article-img" src="../assets/img/kart/scan_CV5.png" >
     <P class="img-caption">Scan reconstruction in CATIA V5</P>
     <p>Remplace ce texte par ton contenu : sections, listes, images…</p>
+
+  <model-viewer
+    src="../assets/models/kart.glb"
+    alt="Kart cross 3D"
+    camera-controls
+    auto-rotate
+    environment-image="neutral"
+    exposure="1"
+    style="background: #cccccc; width:100%;max-width:900px;height:500px;margin:16px auto;display:block;border:1px solid #ddd;border-radius:8px;">
+</model-viewer>
   </main>
 
   <footer><small>&copy; 2025 Ton Nom</small></footer>
